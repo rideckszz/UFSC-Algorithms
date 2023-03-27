@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+
+public class somasequenciadas {
+  public static void main  (String[] args) {
+    Scanner entrada = new Scanner(System.in);
+    System.out.println("Digite os numeros: ");
+    int a, b, c, d;
+    a = entrada.nextInt();
+    b = entrada.nextInt();
+    c = entrada.nextInt();
+    d = entrada.nextInt();
+
+    int soma = a + b + c + d;
+
+    System.out.println("Soma = " + soma);
+  }
+}
